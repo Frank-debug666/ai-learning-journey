@@ -1,0 +1,16 @@
+name: Content or example issue
+description: Report a broken link, unclear explanation, or code example problem
+title: "[Issue]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What needs correction?
+      description: Include the document or example path and the expected correction.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Runtime version and relevant logs when this affects a code example.
+
